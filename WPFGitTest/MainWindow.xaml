@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFGitTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="222.522">
     <Grid>
         <Label x:Name="lblBericht" Content="Kennismaking met Git" HorizontalAlignment="Left" Margin="41,38,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="btnBericht" Content="Toon berichten" HorizontalAlignment="Left" Margin="41,87,0,0" VerticalAlignment="Top" Width="126" Click="btnBericht_Click"/>
+        <ListBox x:Name="lbBericht" HorizontalAlignment="Left" Height="122" Margin="41,148,0,0" VerticalAlignment="Top" Width="126"/>
 
     </Grid>
 </Window>

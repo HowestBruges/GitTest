@@ -31,6 +31,7 @@ namespace WPFGitTest
             lbBericht.Items.Add("Welcome!");
             lbBericht.Items.Add("Bienvenue!");
             lbBericht.Items.Add("Wilkommen!");
+            lbBericht.Items.Add("benvenuto");
         }
     }
 }
